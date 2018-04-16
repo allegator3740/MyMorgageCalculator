@@ -1,0 +1,15 @@
+PODS:
+  - CircleProgressBar (0.32)
+  - FCAlertView (1.3.1)
+
+DEPENDENCIES:
+  - CircleProgressBar (~> 0.32)
+  - FCAlertView (~> 1.3)
+
+SPEC CHECKSUMS:
+  CircleProgressBar: 3920079be5224b62b3d9ed6eeb23ac01c835b681
+  FCAlertView: 083c067bfd98f147abf5a66fe0e31cefac7bc809
+
+PODFILE CHECKSUM: 1fab0f1a3c6e3a89d8c0bc69d7c1be2519ff802a
+
+COCOAPODS: 1.2.1

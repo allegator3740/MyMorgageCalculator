@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CircleProgressBar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FCAlertView-FCAlertView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FCAlertView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MyMorgageCalculator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1613271357771814C71601D90B787D94</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>33DCB6A52654E702E5331F06117FC092</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B545B48FA0CEE58E0B8D9309EE4CFF7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF1ABE20DAA23760FBF0359740C1F0B9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

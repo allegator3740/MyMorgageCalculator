@@ -1,0 +1,6 @@
+framework module Pods_MyMorgageCalculator {
+  umbrella header "Pods-MyMorgageCalculator-umbrella.h"
+
+  export *
+  module * { export * }
+}

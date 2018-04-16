@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0921F7A022E91ECC7563A2E63CF3E9D0 /* checkmark-round.png in Resources */ = {isa = PBXBuildFile; fileRef = 8363A7F36530212667192731AD6137F1 /* checkmark-round.png */; };
+		1391071609A6F617726011C221EA2A4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		14A0B914C8A7F8EEE1317349A990C581 /* CircleProgressBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C50258258C1D1316B3154215780D62 /* CircleProgressBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1592E7C3059060DAA3A6D976250E7FD9 /* CircleProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4AD13D3E4B6DF7991558E8E00D5E5EB /* CircleProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20BAB5D59DF7BD045F079334AAA64ACA /* FCAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 75C2D6EEE4702F126677B42C56B08485 /* FCAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D36B60865B7E94F3B8766879718C88A /* Pods-MyMorgageCalculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3BC13694F8BCFE3F0DA4CA718E8878 /* Pods-MyMorgageCalculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		518A7348D349718B58417FAB16B088CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		55A2E0A361F71BAF2A9B6AED67532A88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		6F036EDB3C6F4D77407B93978853D66A /* FCAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BD762097D0F23B990780448D9D52EF9 /* FCAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C548FE59CFBEE5B45C0915A292156CD /* alert-round.png in Resources */ = {isa = PBXBuildFile; fileRef = C51AF8F27BCC98B128AA5D1C075CF7AD /* alert-round.png */; };
+		7FA1FDC003B51BD9EEDAE2E3D55382E3 /* CircleProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E2DFA2A55F08473BEFBCFC1790662 /* CircleProgressBar-dummy.m */; };
+		82CD4C9C56D28B0A759AC4E8250B903F /* FCAlertView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 31622A8796CB4DCCB859411D36E4B1CA /* FCAlertView.bundle */; };
+		8380754D4BC4EE5C98617916EC47E94C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3917A50EB224EEDBC66971700D698782 /* UIKit.framework */; };
+		8CAE2E96BE9DAEDF420FB328CB2C30F4 /* FCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B65C7290347A362DB8AAF6F86174A3 /* FCAlertView.m */; };
+		8EAD8DC87EFE35C7E714FBD936B98EDA /* FCAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 692E7A239F73E310D33AF7DA797DE648 /* FCAlertView-dummy.m */; };
+		AFCC4E212CAACCEA0C00B92073B79261 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */; };
+		B25457593E6ED0BA173BCD5D7D90C6E4 /* CircleProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 550B6250C7A361BDAAFB6DFACEA703B5 /* CircleProgressBar.m */; };
+		C8F994B05558D4A259978E6784A79C0B /* close-round.png in Resources */ = {isa = PBXBuildFile; fileRef = F122846FFC01FAE6C90CBDA0F8B2FD3A /* close-round.png */; };
+		C96FC9F06FE204C6004AE55D7FDF069B /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A4810E35932DF99B9600DBAF9A9DA8 /* star.png */; };
+		CEE12926EFB0BC6AB03771942A7C2DB0 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 96B031F4532C151A8C4BC08F4BD50CC4 /* heart.png */; };
+		E1EEE81C1E031F137B173367FF565C45 /* Pods-MyMorgageCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 337C6AA4CE4096531C80CDDA069788D6 /* Pods-MyMorgageCalculator-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32932EDC3FAA8184B9EDDDBBCA1BCF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1613271357771814C71601D90B787D94;
+			remoteInfo = "FCAlertView-FCAlertView";
+		};
+		BBA417DDA2C7118AB9ABF536C8813086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1ABE20DAA23760FBF0359740C1F0B9;
+			remoteInfo = FCAlertView;
+		};
+		FD01FA602A43477A77ED6ABA5C7B1DF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B545B48FA0CEE58E0B8D9309EE4CFF7C;
+			remoteInfo = CircleProgressBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1062AB2CC18DC7A906C20B60818DC319 /* Pods-MyMorgageCalculator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyMorgageCalculator-frameworks.sh"; sourceTree = "<group>"; };
+		17A4810E35932DF99B9600DBAF9A9DA8 /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = star.png; path = FCAlertView/Assets/star.png; sourceTree = "<group>"; };
+		1A0A1337E7D94638ADF0C822A6E052B7 /* FCAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCAlertView.xcconfig; sourceTree = "<group>"; };
+		2612F9DF6E193C33DCBA21DAC256B0A0 /* Pods-MyMorgageCalculator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyMorgageCalculator-resources.sh"; sourceTree = "<group>"; };
+		271E36E59DE908CFE61D572FE81E12B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AD58FB380282384339058503C41D3C2 /* FCAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FCAlertView.framework; path = FCAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6B266BF581542872FEA504314DDA88 /* Pods_MyMorgageCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyMorgageCalculator.framework; path = "Pods-MyMorgageCalculator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31622A8796CB4DCCB859411D36E4B1CA /* FCAlertView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FCAlertView.bundle; path = FCAlertView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D6E9CCF63B61B3BECD89CC02896617 /* CircleProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		337C6AA4CE4096531C80CDDA069788D6 /* Pods-MyMorgageCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyMorgageCalculator-dummy.m"; sourceTree = "<group>"; };
+		3917A50EB224EEDBC66971700D698782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		550B6250C7A361BDAAFB6DFACEA703B5 /* CircleProgressBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CircleProgressBar.m; path = CircleProgressBarDemo/CircleProgressBar/CircleProgressBar.m; sourceTree = "<group>"; };
+		55FE614662852A763F982775E1B641C8 /* CircleProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CircleProgressBar.modulemap; sourceTree = "<group>"; };
+		5C8E2DFA2A55F08473BEFBCFC1790662 /* CircleProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleProgressBar-dummy.m"; sourceTree = "<group>"; };
+		692E7A239F73E310D33AF7DA797DE648 /* FCAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FCAlertView-dummy.m"; sourceTree = "<group>"; };
+		6CA71667720FBC234229754E32E163EF /* ResourceBundle-FCAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FCAlertView-Info.plist"; sourceTree = "<group>"; };
+		75C2D6EEE4702F126677B42C56B08485 /* FCAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FCAlertView.h; path = FCAlertView/Classes/FCAlertView.h; sourceTree = "<group>"; };
+		7D2D8A55215238EE2F1543365AD3D2BD /* CircleProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CircleProgressBar.framework; path = CircleProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8363A7F36530212667192731AD6137F1 /* checkmark-round.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkmark-round.png"; path = "FCAlertView/Assets/checkmark-round.png"; sourceTree = "<group>"; };
+		89C50258258C1D1316B3154215780D62 /* CircleProgressBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CircleProgressBar.h; path = CircleProgressBarDemo/CircleProgressBar/CircleProgressBar.h; sourceTree = "<group>"; };
+		8BD762097D0F23B990780448D9D52EF9 /* FCAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCAlertView-umbrella.h"; sourceTree = "<group>"; };
+		8F3BC13694F8BCFE3F0DA4CA718E8878 /* Pods-MyMorgageCalculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyMorgageCalculator-umbrella.h"; sourceTree = "<group>"; };
+		91A1D536671A7E92B00C8E8B0DD57F10 /* Pods-MyMorgageCalculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyMorgageCalculator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96B031F4532C151A8C4BC08F4BD50CC4 /* heart.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = heart.png; path = FCAlertView/Assets/heart.png; sourceTree = "<group>"; };
+		99B65C7290347A362DB8AAF6F86174A3 /* FCAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FCAlertView.m; path = FCAlertView/Classes/FCAlertView.m; sourceTree = "<group>"; };
+		9D621E9614F86173A5D29B0F29A2F0C3 /* Pods-MyMorgageCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyMorgageCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		AD07B2E207B29F126088B62A753D2969 /* FCAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCAlertView-prefix.pch"; sourceTree = "<group>"; };
+		B4AD13D3E4B6DF7991558E8E00D5E5EB /* CircleProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		BF08AAD1A619A5951606C34821E33958 /* CircleProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleProgressBar.xcconfig; sourceTree = "<group>"; };
+		C51AF8F27BCC98B128AA5D1C075CF7AD /* alert-round.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alert-round.png"; path = "FCAlertView/Assets/alert-round.png"; sourceTree = "<group>"; };
+		CB14FE86765E625A1428E604D48E115D /* Pods-MyMorgageCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyMorgageCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		D31BE441ED2A5925566C6785DD9C1BE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB7DA0A654B71D97D360001659166D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED425A4BB6E860D55AED9E841CAF8C93 /* Pods-MyMorgageCalculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MyMorgageCalculator.modulemap"; sourceTree = "<group>"; };
+		EEC32FE6FF01F0578D733FED5C4D6F58 /* FCAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FCAlertView.modulemap; sourceTree = "<group>"; };
+		F0104F37B329F2688F8096BB49B4E2D9 /* Pods-MyMorgageCalculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyMorgageCalculator-acknowledgements.plist"; sourceTree = "<group>"; };
+		F122846FFC01FAE6C90CBDA0F8B2FD3A /* close-round.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close-round.png"; path = "FCAlertView/Assets/close-round.png"; sourceTree = "<group>"; };
+		FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1047C6535A86077A30CDE388D8404268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B1C92D6BF370D768AAD98A0DA90451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A2E0A361F71BAF2A9B6AED67532A88 /* Foundation.framework in Frameworks */,
+				AFCC4E212CAACCEA0C00B92073B79261 /* QuartzCore.framework in Frameworks */,
+				8380754D4BC4EE5C98617916EC47E94C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6751B02FE08AFB9B4567194E20E4F3C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1391071609A6F617726011C221EA2A4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8159CAB96A39E0836AAA814D7FFBD305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518A7348D349718B58417FAB16B088CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F52044D724A7147BD3DC470DBF53066 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17F5C1A508C8318768E20DBACDF62788 /* CircleProgressBar */,
+				D6BCFFC4473056F5357961782F22630E /* FCAlertView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17F5C1A508C8318768E20DBACDF62788 /* CircleProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				89C50258258C1D1316B3154215780D62 /* CircleProgressBar.h */,
+				550B6250C7A361BDAAFB6DFACEA703B5 /* CircleProgressBar.m */,
+				FB8ECB21A6BCCBF63593CCB2B01CD7E6 /* Support Files */,
+			);
+			name = CircleProgressBar;
+			path = CircleProgressBar;
+			sourceTree = "<group>";
+		};
+		41BB603DF28BA8310F6ECE97816A2B21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D2D8A55215238EE2F1543365AD3D2BD /* CircleProgressBar.framework */,
+				31622A8796CB4DCCB859411D36E4B1CA /* FCAlertView.bundle */,
+				2AD58FB380282384339058503C41D3C2 /* FCAlertView.framework */,
+				2C6B266BF581542872FEA504314DDA88 /* Pods_MyMorgageCalculator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				0F52044D724A7147BD3DC470DBF53066 /* Pods */,
+				41BB603DF28BA8310F6ECE97816A2B21 /* Products */,
+				DBC214860DAC4572DE7611AA1B57FAEA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */,
+				FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */,
+				3917A50EB224EEDBC66971700D698782 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B03D3B9A2546D2F312871E7026E0EDB2 /* Pods-MyMorgageCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				DEB7DA0A654B71D97D360001659166D1 /* Info.plist */,
+				ED425A4BB6E860D55AED9E841CAF8C93 /* Pods-MyMorgageCalculator.modulemap */,
+				91A1D536671A7E92B00C8E8B0DD57F10 /* Pods-MyMorgageCalculator-acknowledgements.markdown */,
+				F0104F37B329F2688F8096BB49B4E2D9 /* Pods-MyMorgageCalculator-acknowledgements.plist */,
+				337C6AA4CE4096531C80CDDA069788D6 /* Pods-MyMorgageCalculator-dummy.m */,
+				1062AB2CC18DC7A906C20B60818DC319 /* Pods-MyMorgageCalculator-frameworks.sh */,
+				2612F9DF6E193C33DCBA21DAC256B0A0 /* Pods-MyMorgageCalculator-resources.sh */,
+				8F3BC13694F8BCFE3F0DA4CA718E8878 /* Pods-MyMorgageCalculator-umbrella.h */,
+				9D621E9614F86173A5D29B0F29A2F0C3 /* Pods-MyMorgageCalculator.debug.xcconfig */,
+				CB14FE86765E625A1428E604D48E115D /* Pods-MyMorgageCalculator.release.xcconfig */,
+			);
+			name = "Pods-MyMorgageCalculator";
+			path = "Target Support Files/Pods-MyMorgageCalculator";
+			sourceTree = "<group>";
+		};
+		C974FCA140BA03FAEE1935B872586D1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C51AF8F27BCC98B128AA5D1C075CF7AD /* alert-round.png */,
+				8363A7F36530212667192731AD6137F1 /* checkmark-round.png */,
+				F122846FFC01FAE6C90CBDA0F8B2FD3A /* close-round.png */,
+				96B031F4532C151A8C4BC08F4BD50CC4 /* heart.png */,
+				17A4810E35932DF99B9600DBAF9A9DA8 /* star.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D6BCFFC4473056F5357961782F22630E /* FCAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				75C2D6EEE4702F126677B42C56B08485 /* FCAlertView.h */,
+				99B65C7290347A362DB8AAF6F86174A3 /* FCAlertView.m */,
+				C974FCA140BA03FAEE1935B872586D1B /* Resources */,
+				F4B54618303EF41DC473C814081BE261 /* Support Files */,
+			);
+			name = FCAlertView;
+			path = FCAlertView;
+			sourceTree = "<group>";
+		};
+		DBC214860DAC4572DE7611AA1B57FAEA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B03D3B9A2546D2F312871E7026E0EDB2 /* Pods-MyMorgageCalculator */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F4B54618303EF41DC473C814081BE261 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEC32FE6FF01F0578D733FED5C4D6F58 /* FCAlertView.modulemap */,
+				1A0A1337E7D94638ADF0C822A6E052B7 /* FCAlertView.xcconfig */,
+				692E7A239F73E310D33AF7DA797DE648 /* FCAlertView-dummy.m */,
+				AD07B2E207B29F126088B62A753D2969 /* FCAlertView-prefix.pch */,
+				8BD762097D0F23B990780448D9D52EF9 /* FCAlertView-umbrella.h */,
+				271E36E59DE908CFE61D572FE81E12B4 /* Info.plist */,
+				6CA71667720FBC234229754E32E163EF /* ResourceBundle-FCAlertView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FCAlertView";
+			sourceTree = "<group>";
+		};
+		FB8ECB21A6BCCBF63593CCB2B01CD7E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55FE614662852A763F982775E1B641C8 /* CircleProgressBar.modulemap */,
+				BF08AAD1A619A5951606C34821E33958 /* CircleProgressBar.xcconfig */,
+				5C8E2DFA2A55F08473BEFBCFC1790662 /* CircleProgressBar-dummy.m */,
+				31D6E9CCF63B61B3BECD89CC02896617 /* CircleProgressBar-prefix.pch */,
+				B4AD13D3E4B6DF7991558E8E00D5E5EB /* CircleProgressBar-umbrella.h */,
+				D31BE441ED2A5925566C6785DD9C1BE2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CircleProgressBar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13CC077374C4E126EA6B786AF09293D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F036EDB3C6F4D77407B93978853D66A /* FCAlertView-umbrella.h in Headers */,
+				20BAB5D59DF7BD045F079334AAA64ACA /* FCAlertView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47D0D260BAB85E7C3107FF6A8D4DF55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D36B60865B7E94F3B8766879718C88A /* Pods-MyMorgageCalculator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93375054C6557A65ADC289638BB6620 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1592E7C3059060DAA3A6D976250E7FD9 /* CircleProgressBar-umbrella.h in Headers */,
+				14A0B914C8A7F8EEE1317349A990C581 /* CircleProgressBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1613271357771814C71601D90B787D94 /* FCAlertView-FCAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E82A1DE997D99C0DF2CECEF19D52746 /* Build configuration list for PBXNativeTarget "FCAlertView-FCAlertView" */;
+			buildPhases = (
+				D36415FC0EF378A99093F211F254C4A3 /* Sources */,
+				1047C6535A86077A30CDE388D8404268 /* Frameworks */,
+				519D8BF34584C829B7275E0542B21053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FCAlertView-FCAlertView";
+			productName = "FCAlertView-FCAlertView";
+			productReference = 31622A8796CB4DCCB859411D36E4B1CA /* FCAlertView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		33DCB6A52654E702E5331F06117FC092 /* Pods-MyMorgageCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C042ACAB1BE8844D1BC5903E57833E8 /* Build configuration list for PBXNativeTarget "Pods-MyMorgageCalculator" */;
+			buildPhases = (
+				8F26C96C3F863B987ECEC306475EA16C /* Sources */,
+				6751B02FE08AFB9B4567194E20E4F3C0 /* Frameworks */,
+				D47D0D260BAB85E7C3107FF6A8D4DF55 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43D8C89B16E09F9411CF63B5785FC63 /* PBXTargetDependency */,
+				65C3CC0A26210743D0C0578F675C8D87 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyMorgageCalculator";
+			productName = "Pods-MyMorgageCalculator";
+			productReference = 2C6B266BF581542872FEA504314DDA88 /* Pods_MyMorgageCalculator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B545B48FA0CEE58E0B8D9309EE4CFF7C /* CircleProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39B15C61CDDF99F09243A57E0E68A644 /* Build configuration list for PBXNativeTarget "CircleProgressBar" */;
+			buildPhases = (
+				3A84ADD9BC0D1E8E822745AD46AE41C1 /* Sources */,
+				63B1C92D6BF370D768AAD98A0DA90451 /* Frameworks */,
+				F93375054C6557A65ADC289638BB6620 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleProgressBar;
+			productName = CircleProgressBar;
+			productReference = 7D2D8A55215238EE2F1543365AD3D2BD /* CircleProgressBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF1ABE20DAA23760FBF0359740C1F0B9 /* FCAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA6C0585D1B3396EA76721ED9ABF898 /* Build configuration list for PBXNativeTarget "FCAlertView" */;
+			buildPhases = (
+				B3EE5904AD57CEBB6A3EABDD17E5F980 /* Sources */,
+				8159CAB96A39E0836AAA814D7FFBD305 /* Frameworks */,
+				9EFDE054B823A3EDE57E82668B162C3F /* Resources */,
+				13CC077374C4E126EA6B786AF09293D2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E37634C12DE0AFB113AE9BB570E06D2 /* PBXTargetDependency */,
+			);
+			name = FCAlertView;
+			productName = FCAlertView;
+			productReference = 2AD58FB380282384339058503C41D3C2 /* FCAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 41BB603DF28BA8310F6ECE97816A2B21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B545B48FA0CEE58E0B8D9309EE4CFF7C /* CircleProgressBar */,
+				EF1ABE20DAA23760FBF0359740C1F0B9 /* FCAlertView */,
+				1613271357771814C71601D90B787D94 /* FCAlertView-FCAlertView */,
+				33DCB6A52654E702E5331F06117FC092 /* Pods-MyMorgageCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		519D8BF34584C829B7275E0542B21053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C548FE59CFBEE5B45C0915A292156CD /* alert-round.png in Resources */,
+				0921F7A022E91ECC7563A2E63CF3E9D0 /* checkmark-round.png in Resources */,
+				C8F994B05558D4A259978E6784A79C0B /* close-round.png in Resources */,
+				CEE12926EFB0BC6AB03771942A7C2DB0 /* heart.png in Resources */,
+				C96FC9F06FE204C6004AE55D7FDF069B /* star.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFDE054B823A3EDE57E82668B162C3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CD4C9C56D28B0A759AC4E8250B903F /* FCAlertView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A84ADD9BC0D1E8E822745AD46AE41C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA1FDC003B51BD9EEDAE2E3D55382E3 /* CircleProgressBar-dummy.m in Sources */,
+				B25457593E6ED0BA173BCD5D7D90C6E4 /* CircleProgressBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F26C96C3F863B987ECEC306475EA16C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1EEE81C1E031F137B173367FF565C45 /* Pods-MyMorgageCalculator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EE5904AD57CEBB6A3EABDD17E5F980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAD8DC87EFE35C7E714FBD936B98EDA /* FCAlertView-dummy.m in Sources */,
+				8CAE2E96BE9DAEDF420FB328CB2C30F4 /* FCAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36415FC0EF378A99093F211F254C4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65C3CC0A26210743D0C0578F675C8D87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FCAlertView;
+			target = EF1ABE20DAA23760FBF0359740C1F0B9 /* FCAlertView */;
+			targetProxy = BBA417DDA2C7118AB9ABF536C8813086 /* PBXContainerItemProxy */;
+		};
+		9E37634C12DE0AFB113AE9BB570E06D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FCAlertView-FCAlertView";
+			target = 1613271357771814C71601D90B787D94 /* FCAlertView-FCAlertView */;
+			targetProxy = 32932EDC3FAA8184B9EDDDBBCA1BCF5D /* PBXContainerItemProxy */;
+		};
+		B43D8C89B16E09F9411CF63B5785FC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleProgressBar;
+			target = B545B48FA0CEE58E0B8D9309EE4CFF7C /* CircleProgressBar */;
+			targetProxy = FD01FA602A43477A77ED6ABA5C7B1DF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08AF1AA811A484570DD688C6C3889E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF08AAD1A619A5951606C34821E33958 /* CircleProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CircleProgressBar/CircleProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircleProgressBar/CircleProgressBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CircleProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3FFE1FB9B3538260617031CCA6FA9942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB14FE86765E625A1428E604D48E115D /* Pods-MyMorgageCalculator.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyMorgageCalculator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyMorgageCalculator/Pods-MyMorgageCalculator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MyMorgageCalculator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		762A65C983BFE7B4873C7CA6C6E10CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D621E9614F86173A5D29B0F29A2F0C3 /* Pods-MyMorgageCalculator.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyMorgageCalculator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyMorgageCalculator/Pods-MyMorgageCalculator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MyMorgageCalculator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CEB3D839D1BDC64F3C6C0E33D021ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0A1337E7D94638ADF0C822A6E052B7 /* FCAlertView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCAlertView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/ResourceBundle-FCAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7D0E17E0B756CA6BC9D49F6B698477FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF08AAD1A619A5951606C34821E33958 /* CircleProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CircleProgressBar/CircleProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircleProgressBar/CircleProgressBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CircleProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6D07E3AFCBFA75546AF03E84F673E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0A1337E7D94638ADF0C822A6E052B7 /* FCAlertView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCAlertView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/ResourceBundle-FCAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD3FDECD778D4D5C09DAB5DA98DD567D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0A1337E7D94638ADF0C822A6E052B7 /* FCAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FCAlertView/FCAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FCAlertView/FCAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA99A4B3874D431F51579391A36C51F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0A1337E7D94638ADF0C822A6E052B7 /* FCAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FCAlertView/FCAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FCAlertView/FCAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */,
+				AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39B15C61CDDF99F09243A57E0E68A644 /* Build configuration list for PBXNativeTarget "CircleProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0E17E0B756CA6BC9D49F6B698477FC /* Debug */,
+				08AF1AA811A484570DD688C6C3889E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E82A1DE997D99C0DF2CECEF19D52746 /* Build configuration list for PBXNativeTarget "FCAlertView-FCAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D07E3AFCBFA75546AF03E84F673E17 /* Debug */,
+				7CEB3D839D1BDC64F3C6C0E33D021ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA6C0585D1B3396EA76721ED9ABF898 /* Build configuration list for PBXNativeTarget "FCAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3FDECD778D4D5C09DAB5DA98DD567D /* Debug */,
+				FA99A4B3874D431F51579391A36C51F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C042ACAB1BE8844D1BC5903E57833E8 /* Build configuration list for PBXNativeTarget "Pods-MyMorgageCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762A65C983BFE7B4873C7CA6C6E10CEA /* Debug */,
+				3FFE1FB9B3538260617031CCA6FA9942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
